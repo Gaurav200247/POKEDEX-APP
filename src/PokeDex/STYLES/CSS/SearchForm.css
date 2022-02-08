@@ -1,0 +1,31 @@
+/* ------------------------------------------------------------------ */
+/* searchform */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 30px;
+  padding-bottom: 10px;
+
+  width: 50%;
+
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.form-control {
+  font-family: monospace;
+  width: 70%;
+}
+.error-alert {
+  pointer-events: none;
+  color: rgb(255, 255, 255, 0.4);
+  margin: 10px;
+  margin-left: 0;
+}
+.red {
+  color: red;
+}
+.green {
+  color: greenyellow;
+}
